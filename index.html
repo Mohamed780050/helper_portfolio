@@ -196,8 +196,8 @@
             class="container mx-auto px-4 py-10 relative z-10 flex items-center flex-col"
           >
             <svg
-              width="476"
-              height="142"
+              width="400"
+              height="119"
               viewBox="0 0 238 71"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -350,17 +350,18 @@
               <br />
               we Create Impact.
             </h2>
-            <button
-              class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark px-8 py-4 rounded-xl font-bold flex items-center gap-2 mx-auto hover:scale-105 transition-transform"
+            <a
+              href="./pages/service.html"
+              class="w-fit bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark px-8 py-4 rounded-xl font-bold flex items-center gap-2 mx-auto hover:scale-105 transition-transform"
             >
               <span>Start Your Growth Journey</span>
               <span class="material-symbols-outlined">arrow_forward</span>
-            </button>
+            </a>
           </div>
         </section>
         <section class="py-24">
           <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
               <div class="relative">
                 <div class="absolute -left-12 top-0 bottom-0 flex items-center">
                   <div
@@ -379,20 +380,18 @@
                   Every service we offer is designed to connect data,
                   creativity, and performance for your brand.
                 </p>
-                <div class="space-y-4 pl-4">
-                  <a
-                    class="flex justify-between items-center p-6 rounded-xl bg-card-dark dark:bg-card-dark-2 text-text-dark transition-all"
-                    href="#"
+                <div class="space-y-4 pl-4" id="services-list">
+                  <button
+                    class="flex justify-between items-center p-6 rounded-xl w-full text-left transition-all bg-text-light text-text-dark dark:bg-text-dark dark:text-text-light"
                   >
                     <div class="flex items-center gap-4">
-                      <span class="text-primary font-bold">01</span>
+                      <span class="font-bold text-primary">01</span>
                       <span class="font-bold">UI/UX Design</span>
                     </div>
                     <span class="material-symbols-outlined">arrow_forward</span>
-                  </a>
-                  <a
-                    class="flex justify-between items-center p-6 rounded-xl bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
-                    href="#"
+                  </button>
+                  <button
+                    class="flex justify-between items-center p-6 rounded-xl w-full text-left bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
                   >
                     <div class="flex items-center gap-4">
                       <span
@@ -402,10 +401,9 @@
                       <span class="font-bold">Web Development</span>
                     </div>
                     <span class="material-symbols-outlined">arrow_forward</span>
-                  </a>
-                  <a
-                    class="flex justify-between items-center p-6 rounded-xl bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
-                    href="#"
+                  </button>
+                  <button
+                    class="flex justify-between items-center p-6 rounded-xl w-full text-left bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
                   >
                     <div class="flex items-center gap-4">
                       <span
@@ -415,10 +413,9 @@
                       <span class="font-bold">3D Designs</span>
                     </div>
                     <span class="material-symbols-outlined">arrow_forward</span>
-                  </a>
-                  <a
-                    class="flex justify-between items-center p-6 rounded-xl bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
-                    href="#"
+                  </button>
+                  <button
+                    class="flex justify-between items-center p-6 rounded-xl w-full text-left bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
                   >
                     <div class="flex items-center gap-4">
                       <span
@@ -428,21 +425,22 @@
                       <span class="font-bold">Motion Graphics</span>
                     </div>
                     <span class="material-symbols-outlined">arrow_forward</span>
-                  </a>
+                  </button>
                 </div>
               </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="grid grid-cols-2 gap-4" id="service-content-area">
                 <div
                   class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square"
                 >
                   <p class="font-semibold">
-                    Ever wondered how design magic happens?
+                    Ever wondered how design magic happens? We craft intuitive
+                    and visually stunning interfaces.
                   </p>
                   <a
                     class="flex items-center justify-between text-lg font-bold"
                     href="#"
                   >
-                    <span>See how we work</span>
+                    <span>See our UI/UX work</span>
                     <span
                       class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2"
                       >north_east</span
@@ -452,22 +450,16 @@
                 <div
                   class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square"
                 >
-                  <img
-                    src="./assets/business-analytics-dashboard.jpg"
-                    alt=""
-                    srcset=""
-                    class="w-full h-full object-cover rounded-lg"
-                  />
+                  <div
+                    class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"
+                  ></div>
                 </div>
                 <div
                   class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square col-span-1"
                 >
-                  <img
-                    src="./assets/business-data-analytics-dashboard.jpg"
-                    alt=""
-                    srcset=""
-                    class="w-full h-full object-cover rounded-lg"
-                  />
+                  <div
+                    class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"
+                  ></div>
                 </div>
                 <div
                   class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square"
@@ -722,12 +714,13 @@
                 <span class="bg-primary text-text-light px-2">Best Work</span
                 ><br />of Successful Projects
               </h2>
-              <button
+              <a
+                href="./pages/portfiolio.html"
                 class="hidden md:flex items-center gap-2 border border-gray-300 dark:border-gray-600 rounded-lg px-6 py-3 hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
               >
                 <span>See More</span>
                 <span class="material-symbols-outlined">arrow_forward</span>
-              </button>
+              </a>
             </div>
             <div class="relative">
               <div
@@ -933,16 +926,18 @@
               businesses flourish.
             </p>
             <div class="flex justify-center gap-4">
-              <button
+              <a
+                href="./pages/contact.html"
                 class="bg-primary text-text-light px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
               >
                 Get Started
-              </button>
-              <button
+              </a>
+              <a
+                href="./pages/contact.html"
                 class="bg-card-light dark:bg-card-dark px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity text-white"
               >
                 Free Consultation
-              </button>
+              </a>
             </div>
             <svg
               width="346"
@@ -1180,5 +1175,150 @@
         }
       });
     })();
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const servicesList = document.getElementById("services-list");
+      const serviceButtons = servicesList.querySelectorAll("button");
+      const serviceContentArea = document.getElementById(
+        "service-content-area"
+      );
+      const servicesData = {
+        "UI/UX Design": {
+          content: `
+                    <div class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square">
+                        <p class="font-semibold">Ever wondered how design magic happens? We craft intuitive and visually stunning interfaces.</p>
+                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                            <span>See our UI/UX work</span>
+                            <span class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2">north_east</span>
+                        </a>
+                    </div>
+                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square">
+                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
+                    </div>
+                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square col-span-1">
+                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
+                    </div>
+                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square">
+                        <p class="font-semibold">Looking for design experts who can bring your vision to life?</p>
+                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                            <span>Meet our expert</span>
+                            <span class="material-symbols-outlined bg-black/20 rounded-full p-2">north_east</span>
+                        </a>
+                    </div>`,
+        },
+        "Web Development": {
+          content: `
+                    <div class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square">
+                        <p class="font-semibold">We build fast, modern, and scalable web solutions that drive business growth.</p>
+                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                            <span>Explore our code</span>
+                            <span class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2">north_east</span>
+                        </a>
+                    </div>
+                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square">
+                         <p class="font-semibold">Need a powerful website? We've got the tech stack to make it happen.</p>
+                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                            <span>Discuss your project</span>
+                            <span class="material-symbols-outlined bg-black/20 rounded-full p-2">north_east</span>
+                        </a>
+                    </div>
+                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square col-span-2">
+                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
+                    </div>`,
+        },
+        "3D Designs": {
+          content: `
+                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square col-span-2">
+                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
+                    </div>
+                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square">
+                        <p class="font-semibold">Bring your ideas to life with stunning, realistic 3D visualizations.</p>
+                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                            <span>See our 3D gallery</span>
+                            <span class="material-symbols-outlined bg-black/20 rounded-full p-2">north_east</span>
+                        </a>
+                    </div>
+                     <div class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square">
+                        <p class="font-semibold">From product models to architectural renders, we make it immersive.</p>
+                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                            <span>Learn our process</span>
+                            <span class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2">north_east</span>
+                        </a>
+                    </div>`,
+        },
+        "Motion Graphics": {
+          content: `
+                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square">
+                         <p class="font-semibold">Engage your audience with captivating animations and motion graphics.</p>
+                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                            <span>Watch our showreel</span>
+                            <span class="material-symbols-outlined bg-black/20 rounded-full p-2">north_east</span>
+                        </a>
+                    </div>
+                     <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square">
+                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
+                    </div>
+                    <div class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square col-span-2">
+                        <p class="font-semibold">We create dynamic visual stories that leave a lasting impression.</p>
+                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                            <span>Start your animation</span>
+                            <span class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2">north_east</span>
+                        </a>
+                    </div>`,
+        },
+      };
+      const activeClasses =
+        "bg-text-light text-text-dark dark:bg-text-dark dark:text-text-light".split(
+          " "
+        );
+      const inactiveClasses =
+        "bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2".split(
+          " "
+        );
+      const activeTextClasses = "text-primary font-bold".split(" ");
+      const inactiveTextClasses =
+        "text-text-muted-light dark:text-text-muted-dark font-bold".split(" ");
+      serviceButtons.forEach((button) => {
+        button.addEventListener("click", function () {
+          // Reset all buttons to inactive state
+          serviceButtons.forEach((btn) => {
+            const numberSpan = btn.querySelector(
+              ".flex.items-center.gap-4 span:first-child"
+            );
+            activeClasses.forEach((cls) => btn.classList.remove(cls));
+            inactiveClasses.forEach((cls) => btn.classList.add(cls));
+            if (numberSpan) {
+              activeTextClasses.forEach((cls) =>
+                numberSpan.classList.remove(cls)
+              );
+              inactiveTextClasses.forEach((cls) =>
+                numberSpan.classList.add(cls)
+              );
+            }
+          });
+          // Set clicked button to active state
+          const clickedNumberSpan = this.querySelector(
+            ".flex.items-center.gap-4 span:first-child"
+          );
+          inactiveClasses.forEach((cls) => this.classList.remove(cls));
+          activeClasses.forEach((cls) => this.classList.add(cls));
+          if (clickedNumberSpan) {
+            inactiveTextClasses.forEach((cls) =>
+              clickedNumberSpan.classList.remove(cls)
+            );
+            activeTextClasses.forEach((cls) =>
+              clickedNumberSpan.classList.add(cls)
+            );
+          }
+          // Update content on the right
+          const serviceName =
+            this.querySelector("span:nth-child(2)").textContent.trim();
+          if (servicesData[serviceName]) {
+            serviceContentArea.innerHTML = servicesData[serviceName].content;
+          }
+        });
+      });
+    });
   </script>
 </html>
