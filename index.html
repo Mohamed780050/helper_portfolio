@@ -24,7 +24,7 @@
               primary: "#94E95D",
               "background-light": "#FFFFFF",
               "background-dark": "#0D0D0D",
-              "card-light": "#2A2A2A",
+              "card-light": "#F2F2F2",
               "card-dark": "#1A1A1A",
               "card-dark-2": "#262626",
               "text-light": "#0D0D0D",
@@ -365,7 +365,7 @@
         </section>
         <section class="py-24">
           <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div class="relative">
                 <div class="absolute -left-12 top-0 bottom-0 flex items-center">
                   <div
@@ -378,7 +378,9 @@
                   Our
                   <span class="bg-primary text-text-light px-2">Services</span>
                 </h2>
-                <p class="text-slate-400 text-lg mb-8 pl-4">
+                <p
+                  class="text-text-muted-light dark:text-text-muted-dark text-lg mb-8 pl-4"
+                >
                   Every service we offer is designed to connect data,
                   creativity, and performance for your brand.
                 </p>
@@ -396,7 +398,10 @@
                     class="flex justify-between items-center p-6 rounded-xl w-full text-left bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
                   >
                     <div class="flex items-center gap-4">
-                      <span class="text-slate-400 font-bold">02</span>
+                      <span
+                        class="text-text-muted-light dark:text-text-muted-dark font-bold"
+                        >02</span
+                      >
                       <span class="font-bold">Web Development</span>
                     </div>
                     <span class="material-symbols-outlined">arrow_forward</span>
@@ -405,7 +410,10 @@
                     class="flex justify-between items-center p-6 rounded-xl w-full text-left bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
                   >
                     <div class="flex items-center gap-4">
-                      <span class="text-slate-400 font-bold">03</span>
+                      <span
+                        class="text-text-muted-light dark:text-text-muted-dark font-bold"
+                        >03</span
+                      >
                       <span class="font-bold">3D Designs</span>
                     </div>
                     <span class="material-symbols-outlined">arrow_forward</span>
@@ -414,76 +422,57 @@
                     class="flex justify-between items-center p-6 rounded-xl w-full text-left bg-background-light dark:bg-card-dark border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-card-dark-2 transition-all"
                   >
                     <div class="flex items-center gap-4">
-                      <span class="text-slate-400 font-bold">04</span>
+                      <span
+                        class="text-text-muted-light dark:text-text-muted-dark font-bold"
+                        >04</span
+                      >
                       <span class="font-bold">Motion Graphics</span>
                     </div>
                     <span class="material-symbols-outlined">arrow_forward</span>
                   </button>
                 </div>
               </div>
-              <div
-                class="grid grid-cols-1 md:grid-cols-2 gap-4"
-                id="service-content-area"
-              >
+              <div class="grid grid-cols-1 gap-8" id="service-content-area">
                 <div
-                  class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square"
-                >
-                  <p class="font-semibold">
-                    Ever wondered how design magic happens? We craft intuitive
-                    and visually stunning interfaces.
-                  </p>
-                  <a
-                    class="flex items-center justify-between text-lg font-bold"
-                    href="#"
-                  >
-                    <span>See our UI/UX work</span>
-                    <span
-                      class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2"
-                      >north_east</span
-                    >
-                  </a>
-                </div>
-                <div
-                  class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square"
+                  class="bg-card-light dark:bg-card-dark p-6 rounded-xl flex flex-col items-center"
                 >
                   <div
-                    class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"
-                  ></div>
+                    class="w-full flex flex-col justify-between self-stretch text-center flex-grow"
+                  >
+                    <p class="font-semibold">
+                      Ever wondered how design magic happens? We craft intuitive
+                      and visually stunning interfaces.
+                    </p>
+                    <div
+                      class="bg-white dark:bg-card-dark-2 p-3 rounded-lg my-6"
+                    >
+                      <img
+                        alt="UI/UX Design"
+                        class="w-full h-48 object-cover rounded-lg"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeYafe2regNvLfxoga3-hhP4ftuNYxtlCcDtheiebDob10xLlSNkEGJnF8v5fnhIhAyR3OF-bK_uPfpU3gS2AQf5ezXO1SbsMYmuJrSq7HGb4Na4691BLyb9vKxZ_jy8EdPoEjPZw9TuNTLRdmYIkUntOIjXWmsL3Os8_t89gsNjN4ArLIOGQsUHMwvgv1jPvnH1t3RHj_DFby2Qwnhp4fMOWG6IXlHA3VSQ-k1LX-A_8QyENq00cz382tho1VDN6hMJWZ_k-L409Z"
+                      />
+                    </div>
+                    <a
+                      class="flex items-center justify-between text-lg font-bold w-full max-w-xs mx-auto"
+                      href="#"
+                    >
+                      <span>See our UI/UX work</span>
+                      <span
+                        class="material-symbols-outlined bg-gray-300 dark:bg-gray-700 rounded-full p-2"
+                        >north_east</span
+                      >
+                    </a>
+                  </div>
                 </div>
                 <div
-                  class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square md:hidden"
+                  class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between"
                 >
                   <p class="font-semibold">
                     Looking for design experts who can bring your vision to
                     life?
                   </p>
                   <a
-                    class="flex items-center justify-between text-lg font-bold"
-                    href="#"
-                  >
-                    <span>Meet our expert</span>
-                    <span
-                      class="material-symbols-outlined bg-black/20 rounded-full p-2"
-                      >north_east</span
-                    >
-                  </a>
-                </div>
-                <div
-                  class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square col-span-1"
-                >
-                  <div
-                    class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"
-                  ></div>
-                </div>
-                <div
-                  class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square hidden md:flex"
-                >
-                  <p class="font-semibold">
-                    Looking for design experts who can bring your vision to
-                    life?
-                  </p>
-                  <a
-                    class="flex items-center justify-between text-lg font-bold"
+                    class="flex items-center justify-between text-lg font-bold mt-4"
                     href="#"
                   >
                     <span>Meet our expert</span>
@@ -637,9 +626,7 @@
               </p>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 text-white">
-              <div
-                class="bg-card-light dark:bg-card-dark p-3 md:p-8 rounded-lg"
-              >
+              <div class="bg-card-dark dark:bg-card-dark p-3 md:p-8 rounded-lg">
                 <span class="text-slate-400 font-bold text-2xl mb-4 block"
                   >01</span
                 >
@@ -659,9 +646,7 @@
                   Understanding your market, audience, and goals.
                 </p>
               </div>
-              <div
-                class="bg-card-light dark:bg-card-dark p-3 md:p-8 rounded-lg"
-              >
+              <div class="bg-card-dark dark:bg-card-dark p-3 md:p-8 rounded-lg">
                 <span class="text-slate-400 font-bold text-2xl mb-4 block"
                   >02</span
                 >
@@ -681,9 +666,7 @@
                   Building a focused plan that drives measurable success.
                 </p>
               </div>
-              <div
-                class="bg-card-light dark:bg-card-dark p-3 md:p-8 rounded-lg"
-              >
+              <div class="bg-card-dark dark:bg-card-dark p-3 md:p-8 rounded-lg">
                 <span class="text-slate-400 font-bold text-2xl mb-4 block"
                   >03</span
                 >
@@ -703,9 +686,7 @@
                   Creating creative visuals that reflect your brand essence.
                 </p>
               </div>
-              <div
-                class="bg-card-light dark:bg-card-dark p-3 md:p-8 rounded-lg"
-              >
+              <div class="bg-card-dark dark:bg-card-dark p-3 md:p-8 rounded-lg">
                 <span class="text-slate-400 font-bold text-2xl mb-4 block"
                   >04</span
                 >
@@ -985,7 +966,7 @@
               </a>
               <a
                 href="./pages/contact.html"
-                class="bg-card-light dark:bg-card-dark px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity text-white"
+                class="bg-card-dark dark:bg-card-dark px-6 py-3 rounded-lg font-bold hover:opacity-90 transition-opacity text-white"
               >
                 Free Consultation
               </a>
@@ -1271,22 +1252,21 @@
       const servicesData = {
         "UI/UX Design": {
           content: `
-                    <div class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square">
-                        <p class="font-semibold">Ever wondered how design magic happens? We craft intuitive and visually stunning interfaces.</p>
-                        <a class="flex items-center justify-between text-lg font-bold" href="#">
-                            <span>See our UI/UX work</span>
-                            <span class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2">north_east</span>
-                        </a>
+                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl flex flex-col items-center">
+                        <div class="w-full flex flex-col justify-between self-stretch text-center flex-grow">
+                            <p class="font-semibold">Ever wondered how design magic happens? We craft intuitive and visually stunning interfaces.</p>
+                            <div class="bg-white dark:bg-card-dark-2 p-3 rounded-lg my-6">
+                                <img alt="UI/UX Design" class="w-full h-48 object-cover rounded-lg" src="image-e26e256860d24e10915152a5c531a7c3" />
+                            </div>
+                            <a class="flex items-center justify-between text-lg font-bold w-full max-w-xs mx-auto" href="#">
+                                <span>See our UI/UX work</span>
+                                <span class="material-symbols-outlined bg-gray-300 dark:bg-gray-700 rounded-full p-2">north_east</span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square">
-                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
-                    </div>
-                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square col-span-1">
-                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
-                    </div>
-                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square">
+                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between">
                         <p class="font-semibold">Looking for design experts who can bring your vision to life?</p>
-                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                        <a class="flex items-center justify-between text-lg font-bold mt-4" href="#">
                             <span>Meet our expert</span>
                             <span class="material-symbols-outlined bg-black/20 rounded-full p-2">north_east</span>
                         </a>
@@ -1294,61 +1274,67 @@
         },
         "Web Development": {
           content: `
-                    <div class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square">
-                        <p class="font-semibold">We build fast, modern, and scalable web solutions that drive business growth.</p>
-                        <a class="flex items-center justify-between text-lg font-bold" href="#">
-                            <span>Explore our code</span>
-                            <span class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2">north_east</span>
-                        </a>
+                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl flex flex-col items-center">
+                        <div class="w-full flex flex-col justify-between self-stretch text-center flex-grow">
+                            <p class="font-semibold">We build fast, modern, and scalable web solutions that drive business growth.</p>
+                             <div class="bg-white dark:bg-card-dark-2 p-3 rounded-lg my-6">
+                                <img alt="Web Development" class="w-full h-48 object-cover rounded-lg" src="image-722a4b89c31448988640b0754876b5c7" />
+                            </div>
+                            <a class="flex items-center justify-between text-lg font-bold w-full max-w-xs mx-auto" href="#">
+                                <span>Explore our code</span>
+                                <span class="material-symbols-outlined bg-gray-300 dark:bg-gray-700 rounded-full p-2">north_east</span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square">
+                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between">
                          <p class="font-semibold">Need a powerful website? We've got the tech stack to make it happen.</p>
-                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                        <a class="flex items-center justify-between text-lg font-bold mt-4" href="#">
                             <span>Discuss your project</span>
                             <span class="material-symbols-outlined bg-black/20 rounded-full p-2">north_east</span>
                         </a>
-                    </div>
-                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square md:col-span-2">
-                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
                     </div>`,
         },
         "3D Designs": {
           content: `
-                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square md:col-span-2">
-                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
+                    <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl flex flex-col items-center">
+                         <div class="w-full flex flex-col justify-between self-stretch text-center flex-grow">
+                            <p class="font-semibold">From product models to architectural renders, we make it immersive.</p>
+                            <div class="bg-white dark:bg-card-dark-2 p-3 rounded-lg my-6">
+                                <img alt="3D Designs" class="w-full h-48 object-cover rounded-lg" src="image-f0f51276a66a4f91a5417c2f6d50f757" />
+                            </div>
+                            <a class="flex items-center justify-between text-lg font-bold w-full max-w-xs mx-auto" href="#">
+                                <span>Learn our process</span>
+                                <span class="material-symbols-outlined bg-gray-300 dark:bg-gray-700 rounded-full p-2">north_east</span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square">
+                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between">
                         <p class="font-semibold">Bring your ideas to life with stunning, realistic 3D visualizations.</p>
-                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                        <a class="flex items-center justify-between text-lg font-bold mt-4" href="#">
                             <span>See our 3D gallery</span>
                             <span class="material-symbols-outlined bg-black/20 rounded-full p-2">north_east</span>
-                        </a>
-                    </div>
-                     <div class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square">
-                        <p class="font-semibold">From product models to architectural renders, we make it immersive.</p>
-                        <a class="flex items-center justify-between text-lg font-bold" href="#">
-                            <span>Learn our process</span>
-                            <span class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2">north_east</span>
                         </a>
                     </div>`,
         },
         "Motion Graphics": {
           content: `
-                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between aspect-square">
+                     <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl flex flex-col items-center">
+                        <div class="w-full flex flex-col justify-between self-stretch text-center flex-grow">
+                            <p class="font-semibold">We create dynamic visual stories that leave a lasting impression.</p>
+                            <div class="bg-white dark:bg-card-dark-2 p-3 rounded-lg my-6">
+                                <img alt="Motion Graphics" class="w-full h-48 object-cover rounded-lg" src="image-c1a92e85050f4a799c71a39d8b724f7e" />
+                            </div>
+                            <a class="flex items-center justify-between text-lg font-bold w-full max-w-xs mx-auto" href="#">
+                                <span>Start your animation</span>
+                                <span class="material-symbols-outlined bg-gray-300 dark:bg-gray-700 rounded-full p-2">north_east</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-primary text-text-light rounded-xl p-6 flex flex-col justify-between">
                          <p class="font-semibold">Engage your audience with captivating animations and motion graphics.</p>
-                        <a class="flex items-center justify-between text-lg font-bold" href="#">
+                        <a class="flex items-center justify-between text-lg font-bold mt-4" href="#">
                             <span>Watch our showreel</span>
                             <span class="material-symbols-outlined bg-black/20 rounded-full p-2">north_east</span>
-                        </a>
-                    </div>
-                     <div class="bg-card-light dark:bg-card-dark p-6 rounded-xl aspect-square">
-                        <div class="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse"></div>
-                    </div>
-                    <div class="bg-card-dark dark:bg-card-dark-2 text-text-dark rounded-xl p-6 flex flex-col justify-between aspect-square md:col-span-2">
-                        <p class="font-semibold">We create dynamic visual stories that leave a lasting impression.</p>
-                        <a class="flex items-center justify-between text-lg font-bold" href="#">
-                            <span>Start your animation</span>
-                            <span class="material-symbols-outlined bg-gray-600 dark:bg-gray-700 rounded-full p-2">north_east</span>
                         </a>
                     </div>`,
         },
@@ -1362,7 +1348,8 @@
           " "
         );
       const activeTextClasses = "text-primary font-bold".split(" ");
-      const inactiveTextClasses = "text-slate-400 font-bold".split(" ");
+      const inactiveTextClasses =
+        "text-text-muted-light dark:text-text-muted-dark font-bold".split(" ");
       serviceButtons.forEach((button) => {
         button.addEventListener("click", function () {
           // Reset all buttons to inactive state
